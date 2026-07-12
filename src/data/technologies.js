@@ -1,0 +1,15 @@
+export const technologies = [
+  { name: "JavaScript", icon: "📘" },
+  { name: "C++", icon: "⚙️" },
+  { name: "Python", icon: "🐍" },
+  { name: "React", icon: "⚛️" },
+  { name: "Tailwind CSS", icon: "🎨" },
+  { name: "Node.js", icon: "🟢" },
+  { name: "Express", icon: "🚂" },
+  { name: "MySQL", icon: "🗄️" },
+  { name: "MongoDB", icon: "🍃" },
+  { name: "Git", icon: "🔀" },
+  { name: "AWS", icon: "☁️" },
+  { name: "Docker", icon: "🐳" },
+  { name: "CI/CD", icon: "🔄" },
+];
