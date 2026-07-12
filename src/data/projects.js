@@ -7,17 +7,50 @@ export const projects = [
     technologies: ["Next.js", "TypeScript", "Hono", "MongoDB", "Gemini"],
   },
   {
-    title: "Educative.AI",
+    title: "Sahayog",
     category: "Collaboration",
     description:
-      "A student-aiding application integrating an OCR model and 10+ fine-tuned open-source LLMs, with a dashboard featuring note management, OCR processing, and LLM-driven Q&A.",
-    technologies: ["React", "Tailwind CSS", "TypeScript", "Node.js"],
+      "Developed a MERN-based crowdfunding platform enabling users to create, manage, and fund campaigns with JWT authentication, Cloudinary media storage, and automated email invoicing.",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Cloudinary",
+      "Tailwind CSS"
+    ],
+  }
+  // {
+  //   title: "Educative.AI",
+  //   category: "Collaboration",
+  //   description:
+  //     "A student-aiding application integrating an OCR model and 10+ fine-tuned open-source LLMs, with a dashboard featuring note management, OCR processing, and LLM-driven Q&A.",
+  //   technologies: ["React", "Tailwind CSS", "TypeScript", "Node.js"],
+  // },
+  {
+    title: "Hybrid RAG Assistant",
+    category: "Personal",
+    description:
+      "Built a self-correcting Hybrid RAG pipeline combining FAISS vector search and BM25 keyword retrieval with LangGraph-based query rewriting to improve retrieval accuracy across PDFs, DOCX, CSVs, and images.",
+    technologies: [
+      "Python",
+      "LangChain",
+      "LangGraph",
+      "FAISS",
+      "BM25",
+      "OCR"
+    ],
   },
   {
-    title: "One Med",
+    title: "Road Damage Detection",
     category: "Hackathon",
     description:
-      "An Electronic Health Repository platform integrating AI and mobile apps to enhance healthcare management, recognised as a top 10 project at MozoHack 2024.",
-    technologies: ["React", "React Native", "Python", "PostgreSQL"],
-  },
+      "Developed a YOLOv8-based road damage detection system to identify and classify potholes and multiple crack types from road images, achieving robust performance using the RDD2022 dataset.",
+    technologies: [
+      "Python",
+      "YOLOv8",
+      "PyTorch",
+    ],
+  }
 ];
