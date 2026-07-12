@@ -67,7 +67,7 @@ export default function About() {
                   ease: [0.25, 0.4, 0.25, 1],
                 }}
               >
-                <TechBadge name={tech.name} icon={tech.icon} />
+                <TechBadge name={tech.name} icon={tech.icon} color={tech.color} />
               </motion.div>
             ))}
           </div>
