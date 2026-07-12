@@ -20,7 +20,7 @@ export const projects = [
       "Cloudinary",
       "Tailwind CSS"
     ],
-  }
+  },
   // {
   //   title: "Educative.AI",
   //   category: "Collaboration",
