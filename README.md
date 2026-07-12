@@ -1,4 +1,4 @@
-# Rutuj Dhawale — Portfolio
+# Portfolio site
 
 A modern, minimal portfolio website built with React, Vite, and Tailwind CSS. Features animated SVG background beams, smooth scrolling, and fully responsive design.
 
