@@ -73,7 +73,3 @@ Set build command to `npm run build` and publish directory to `dist`.
 
 ### GitHub Pages
 Use the GitHub Actions workflow in `.github/workflows/ci.yml` as a base and add a deployment step.
-
-## License
-
-MIT
