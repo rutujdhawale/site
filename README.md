@@ -31,7 +31,7 @@ npm run preview
 
 ```
 src/
-├── components/        # React components
+├── components/        # React-components
 │   ├── Navbar.jsx
 │   ├── Hero.jsx
 │   ├── About.jsx
@@ -42,7 +42,7 @@ src/
 │   ├── BackgroundBeams.jsx
 │   ├── TechBadge.jsx
 │   └── ExperienceCard.jsx
-├── data/              # Content data (easy to edit)
+├── data/              # Content data
 │   ├── technologies.js
 │   ├── experience.js
 │   └── projects.js
