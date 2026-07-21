@@ -63,6 +63,7 @@ All content is stored in `src/data/` — edit the data files to update your:
 The project is pre-configured for deployment on:
 
 ### Vercel
+
 ```bash
 npm run build
 # Deploy the `dist/` folder
