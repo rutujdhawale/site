@@ -11,7 +11,7 @@ A modern, minimal portfolio website built with React, Vite, and Tailwind CSS. Fe
 - **Tailwind CSS v4** — Utility-first styling
 - **Framer Motion** — Smooth animations
 - **Vitest & Testing Library** — Automated unit testing
-- **Lucide React** — Crisp icons
+- **Lucide React** — for icons
 - **React Scroll** — Smooth section navigation
 
 ## Getting Started
