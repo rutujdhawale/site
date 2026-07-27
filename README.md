@@ -1,5 +1,7 @@
 # Portfolio site
 
+![CI Status](https://github.com/killjoycircuit/portfolio-web/actions/workflows/ci.yml/badge.svg)
+
 A modern, minimal portfolio website built with React, Vite, and Tailwind CSS. Features animated SVG background beams, smooth scrolling, and fully responsive design.
 
 ## Tech Stack
@@ -8,6 +10,7 @@ A modern, minimal portfolio website built with React, Vite, and Tailwind CSS. Fe
 - **Vite** — Lightning-fast dev server & build
 - **Tailwind CSS v4** — Utility-first styling
 - **Framer Motion** — Smooth animations
+- **Vitest & Testing Library** — Automated unit testing
 - **Lucide React** — Crisp icons
 - **React Scroll** — Smooth section navigation
 
@@ -19,6 +22,12 @@ npm install
 
 # Start development server
 npm run dev
+
+# Run unit tests
+npm test
+
+# Run linter
+npm run lint
 
 # Build for production
 npm run build
