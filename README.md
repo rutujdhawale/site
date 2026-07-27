@@ -1,85 +1,79 @@
-# Portfolio site
+# Rutuj Dhawale — Personal Portfolio
 
-![CI Status](https://github.com/killjoycircuit/portfolio-web/actions/workflows/ci.yml/badge.svg)
+[![CI Status](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml/badge.svg)](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen.svg?logo=dependabot)](https://github.com/rutujdhawale/portfolio-web/blob/main/.github/dependabot.yml)
+[![CodeRabbit](https://img.shields.io/badge/CodeRabbit-AI_Reviews-indigo.svg?logo=coderabbit)](https://coderabbit.ai)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-A modern, minimal portfolio website built with React, Vite, and Tailwind CSS. Features animated SVG background beams, smooth scrolling, and fully responsive design.
+A modern, high-performance portfolio website built with **React 19**, **Vite**, and **Tailwind CSS v4**. Designed with responsive typography, smooth animations, automated testing, and continuous deployment workflows.
 
-## Tech Stack
+---
 
-- **React** — Component-based UI
-- **Vite** — Lightning-fast dev server & build
-- **Tailwind CSS v4** — Utility-first styling
-- **Framer Motion** — Smooth animations
-- **Vitest & Testing Library** — Automated unit testing
-- **Lucide React** — for icons
-- **React Scroll** — Smooth section navigation
+## ✨ Key Features
 
-## Getting Started
+- 🎨 **Modern Aesthetics**: Built with Framer Motion animations, SVG background beams, and responsive dark-mode styling.
+- 📱 **Mobile Optimized**: Fully responsive layout designed for seamless mobile navigation and touch interaction.
+- 🧪 **Automated Testing**: Vitest and React Testing Library test suite ensuring component stability.
+- ⚡ **Lightning Fast Static Build**: Zero backend latency, global CDN ready.
+- 🤖 **Automated CI/CD**: Parallel GitHub Actions pipeline executing Oxlint checks, Vitest runs, and build checks.
+- 🛡️ **Security & Dependabot**: Automated weekly dependency security updates and CodeRabbit AI code reviews.
+
+---
+
+## 🛠️ Tech Stack
+
+- **Framework**: [React 19](https://react.dev/) + [Vite](https://vitejs.dev/)
+- **Styling**: [Tailwind CSS v4](https://tailwindcss.com/)
+- **Animations**: [Framer Motion](https://www.framer.com/motion/)
+- **Testing**: [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/)
+- **Linter**: [Oxlint](https://oxc-project.github.io/)
+- **CI/CD & Automation**: GitHub Actions, Dependabot, CodeRabbit AI
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- **Node.js**: v18.x or v20.x+
+- **npm**: v9.x or higher
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone https://github.com/rutujdhawale/portfolio-web.git
+
+# Navigate into the project folder
+cd portfolio-web
+
 # Install dependencies
 npm install
+```
 
-# Start development server
+---
+
+## 💻 Development & Testing Setup
+
+```bash
+# Start local development server
 npm run dev
 
-# Run unit tests
+# Run automated Vitest unit tests
 npm test
 
-# Run linter
+# Run Oxlint linter
 npm run lint
 
-# Build for production
+# Build production static assets
 npm run build
 
-# Preview production build
+# Preview local production build
 npm run preview
 ```
 
-## Project Structure
+---
 
-```
-src/
-├── components/        # React-components
-│   ├── Navbar.jsx
-│   ├── Hero.jsx
-│   ├── About.jsx
-│   ├── Experience.jsx
-│   ├── Work.jsx
-│   ├── Connect.jsx
-│   ├── Footer.jsx
-│   ├── BackgroundBeams.jsx
-│   ├── TechBadge.jsx
-│   └── ExperienceCard.jsx
-├── data/              # Content data
-│   ├── technologies.js
-│   ├── experience.js
-│   └── projects.js
-├── App.jsx
-├── main.jsx
-└── index.css
-```
+## 📄 License
 
-## Customization
-
-All content is stored in `src/data/` — edit the data files to update your:
-- Technologies & skills
-- Work experience
-- Projects
-
-## Deployment
-
-The project is pre-configured for deployment on:
-
-### Vercel
-
-```bash
-npm run build
-# Deploy the `dist/` folder
-```
-
-### Netlify
-Set build command to `npm run build` and publish directory to `dist`.
-
-### GitHub Pages
-Use the GitHub Actions workflow in `.github/workflows/ci.yml` as a base and add a deployment step.
+Distributed under the [MIT License](LICENSE). Created by **Rutuj Dhawale**.

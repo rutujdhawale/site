@@ -1,0 +1,31 @@
+# CodeRabbit Configuration (https://docs.coderabbit.ai)
+version: "2"
+language: "en-US"
+tone_instructions: "Be concise, direct, and pragmatic. Focus on high-priority bugs, performance, security, and maintainability. Do not comment on code formatting or style that is already handled by linters."
+
+reviews:
+  profile: "chill"
+  request_changes_workflow: false
+  high_level_summary: true
+  poem: false
+  review_status: true
+  collapse_walkthrough: true
+  auto_review:
+    enabled: true
+    ignore_title_keywords:
+      - "WIP"
+      - "draft"
+    drafts: false
+    base_branches:
+      - "main"
+  path_filters:
+    - "!node_modules/**"
+    - "!dist/**"
+    - "!build/**"
+    - "!coverage/**"
+    - "!package-lock.json"
+    - "!**/*.min.*"
+    - "!**/*.map"
+
+chat:
+  auto_reply: true
