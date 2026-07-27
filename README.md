@@ -40,7 +40,7 @@ npm run preview
 
 ```
 src/
-├── components/        # React components
+├── components/        # React-components
 │   ├── Navbar.jsx
 │   ├── Hero.jsx
 │   ├── About.jsx
@@ -51,7 +51,7 @@ src/
 │   ├── BackgroundBeams.jsx
 │   ├── TechBadge.jsx
 │   └── ExperienceCard.jsx
-├── data/              # Content data (easy to edit)
+├── data/              # Content data
 │   ├── technologies.js
 │   ├── experience.js
 │   └── projects.js
@@ -72,6 +72,7 @@ All content is stored in `src/data/` — edit the data files to update your:
 The project is pre-configured for deployment on:
 
 ### Vercel
+
 ```bash
 npm run build
 # Deploy the `dist/` folder
@@ -82,7 +83,3 @@ Set build command to `npm run build` and publish directory to `dist`.
 
 ### GitHub Pages
 Use the GitHub Actions workflow in `.github/workflows/ci.yml` as a base and add a deployment step.
-
-## License
-
-MIT
