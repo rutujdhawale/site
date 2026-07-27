@@ -2,7 +2,6 @@
 
 [![CI Status](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml/badge.svg)](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen.svg?logo=dependabot)](https://github.com/rutujdhawale/portfolio-web/blob/main/.github/dependabot.yml)
-[![CodeRabbit](https://img.shields.io/badge/CodeRabbit-AI_Reviews-indigo.svg?logo=coderabbit)](https://coderabbit.ai)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A modern, high-performance portfolio website built with **React 19**, **Vite**, and **Tailwind CSS v4**. Designed with responsive typography, smooth animations, automated testing, and continuous deployment workflows.
@@ -16,7 +15,7 @@ A modern, high-performance portfolio website built with **React 19**, **Vite**, 
 - 🧪 **Automated Testing**: Vitest and React Testing Library test suite ensuring component stability.
 - ⚡ **Lightning Fast Static Build**: Zero backend latency, global CDN ready.
 - 🤖 **Automated CI/CD**: Parallel GitHub Actions pipeline executing Oxlint checks, Vitest runs, and build checks.
-- 🛡️ **Security & Dependabot**: Automated weekly dependency security updates and CodeRabbit AI code reviews.
+- 🛡️ **Security & Dependabot**: Automated weekly dependency security updates.
 
 ---
 
@@ -27,7 +26,7 @@ A modern, high-performance portfolio website built with **React 19**, **Vite**, 
 - **Animations**: [Framer Motion](https://www.framer.com/motion/)
 - **Testing**: [Vitest](https://vitest.dev/) + [Testing Library](https://testing-library.com/)
 - **Linter**: [Oxlint](https://oxc-project.github.io/)
-- **CI/CD & Automation**: GitHub Actions, Dependabot, CodeRabbit AI
+- **CI/CD & Automation**: GitHub Actions & Dependabot
 
 ---
 
