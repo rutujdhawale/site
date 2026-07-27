@@ -1,6 +1,6 @@
 # Portfolio site
 
-![CI Status](https://github.com/killjoycircuit/portfolio-web/actions/workflows/ci.yml/badge.svg)
+![CI Status](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml/badge.svg)
 
 A modern, minimal portfolio website built with React, Vite, and Tailwind CSS. Features animated SVG background beams, smooth scrolling, and fully responsive design.
 
