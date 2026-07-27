@@ -73,14 +73,14 @@ export default function Hero() {
         {/* Name with gradient breathing animation */}
         <motion.h1
           variants={wordVariants}
-          className="hero-name text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 bg-gradient-to-r from-neutral-500 via-white to-neutral-400 bg-[length:200%_100%] bg-clip-text text-transparent"
+          className="hero-name text-4xl sm:text-6xl md:text-7xl lg:text-8xl font-bold tracking-tight mb-6 bg-gradient-to-r from-neutral-500 via-white to-neutral-400 bg-[length:200%_100%] bg-clip-text text-transparent"
         >
           Rutuj Dhawale
         </motion.h1>
 
         {/* Description — word-by-word stagger */}
         <motion.p
-          className="text-neutral-400 text-base sm:text-lg max-w-xl mx-auto mb-10 leading-relaxed"
+          className="text-neutral-400 text-sm sm:text-base md:text-lg max-w-xl mx-auto mb-8 sm:mb-10 leading-relaxed"
           variants={containerVariants}
         >
           <AnimatedWords text="Web & AI Developer turning real-world problems into scalable, production-ready solutions." />
@@ -89,7 +89,7 @@ export default function Hero() {
         {/* CTA Buttons */}
         <motion.div
           variants={wordVariants}
-          className="flex items-center justify-center gap-4"
+          className="flex flex-col sm:flex-row items-stretch sm:items-center justify-center gap-3 sm:gap-4 max-w-xs sm:max-w-none mx-auto"
         >
           <Link
             to="work"
@@ -97,7 +97,7 @@ export default function Hero() {
             smooth={true}
             offset={-80}
             duration={600}
-            className="px-6 py-2.5 bg-white text-neutral-950 text-sm font-medium rounded-full cursor-pointer hover:bg-neutral-200 transition-colors duration-200"
+            className="px-6 py-3 sm:py-2.5 bg-white text-neutral-950 text-sm font-medium rounded-full cursor-pointer hover:bg-neutral-200 transition-colors duration-200 text-center"
           >
             View Work
           </Link>
@@ -107,7 +107,7 @@ export default function Hero() {
             smooth={true}
             offset={-80}
             duration={600}
-            className="px-6 py-2.5 bg-transparent text-white text-sm font-medium rounded-full border border-neutral-600 cursor-pointer hover:bg-neutral-800/50 hover:border-neutral-500 transition-all duration-200"
+            className="px-6 py-3 sm:py-2.5 bg-transparent text-white text-sm font-medium rounded-full border border-neutral-600 cursor-pointer hover:bg-neutral-800/50 hover:border-neutral-500 transition-all duration-200 text-center"
           >
             Get in Touch
           </Link>

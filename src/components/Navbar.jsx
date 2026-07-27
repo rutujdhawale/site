@@ -112,7 +112,8 @@ export default function Navbar() {
                     offset={-80}
                     duration={600}
                     onClick={() => setIsOpen(false)}
-                    className="text-sm text-neutral-400 hover:text-white transition-colors duration-200 cursor-pointer py-1"
+                    activeClass="!text-white font-medium bg-neutral-900/80"
+                    className="block text-base text-neutral-300 hover:text-white transition-colors duration-200 cursor-pointer py-2.5 px-3 rounded-lg"
                   >
                     {link.label}
                   </Link>

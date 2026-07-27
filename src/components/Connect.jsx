@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { Mail, ExternalLink, FileText } from "lucide-react";
+import { Mail, FileText } from "lucide-react";
 
 const socialLinks = [
   {
