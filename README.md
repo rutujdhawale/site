@@ -1,7 +1,7 @@
 # Rutuj Dhawale — Personal Portfolio
 
-[![CI Status](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml/badge.svg)](https://github.com/rutujdhawale/portfolio-web/actions/workflows/ci.yml)
-[![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen.svg?logo=dependabot)](https://github.com/rutujdhawale/portfolio-web/blob/main/.github/dependabot.yml)
+[![CI Status](https://github.com/rutujdhawale/site/actions/workflows/ci.yml/badge.svg)](https://github.com/rutujdhawale/site/actions/workflows/ci.yml)
+[![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen.svg?logo=dependabot)](https://github.com/rutujdhawale/site/blob/main/.github/dependabot.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A modern, high-performance portfolio website built with **React 19**, **Vite**, and **Tailwind CSS v4**. Designed with responsive typography, smooth animations, automated testing, and continuous deployment workflows.
