@@ -21,13 +21,8 @@ export const projects = [
       "Tailwind CSS"
     ],
   },
-  // {
-  //   title: "Educative.AI",
-  //   category: "Collaboration",
-  //   description:
-  //     "A student-aiding application integrating an OCR model and 10+ fine-tuned open-source LLMs, with a dashboard featuring note management, OCR processing, and LLM-driven Q&A.",
-  //   technologies: ["React", "Tailwind CSS", "TypeScript", "Node.js"],
-  // },
+  
+  
   {
     title: "Hybrid RAG Assistant",
     category: "Personal",
@@ -39,7 +34,6 @@ export const projects = [
       "LangGraph",
       "FAISS",
       "BM25",
-      "OCR"
     ],
   },
   {
