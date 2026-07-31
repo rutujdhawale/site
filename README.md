@@ -3,7 +3,7 @@
 [![CI Status](https://github.com/rutujdhawale/site/actions/workflows/ci.yml/badge.svg)](https://github.com/rutujdhawale/site/actions/workflows/ci.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen.svg?logo=dependabot)](https://github.com/rutujdhawale/site/blob/main/.github/dependabot.yml)
 
-A modern, high-performance portfolio website built with **React 19**, **Vite**, and **Tailwind CSS v4**. Designed with responsive typography, smooth animations, automated testing, and continuous deployment workflows.
+A modern, high-performance portfolio website built with **React**, **Vite**, and **Tailwind CSS**. Designed with responsive typography, smooth animations, automated testing, and continuous deployment workflows.
 
 ---
 
@@ -14,7 +14,7 @@ A modern, high-performance portfolio website built with **React 19**, **Vite**, 
 - 🧪 **Automated Testing**: Vitest and React Testing Library test suite ensuring component stability.
 - ⚡ **Lightning Fast Static Build**: Zero backend latency, global CDN ready.
 - 🤖 **Automated CI/CD**: Parallel GitHub Actions pipeline executing Oxlint checks, Vitest runs, and build checks.
-- 🛡️ **Security & Dependabot**: Automated weekly dependency security updates.
+- 🛡️ **Security & Dependabot**: Automated monthly dependency security updates.
 
 ---
 
@@ -51,7 +51,7 @@ npm install
 
 ---
 
-## 💻 Development & Testing Setup
+## Dev & Testing Setup
 
 ```bash
 # Start local development server
