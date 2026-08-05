@@ -1,23 +1,32 @@
 export const projects = [
   {
-    title: "Sahayog",
-    category: "Collaboration",
+    title: "90+",
+    category: "Personal",
     description:
-      "Developed a MERN-based crowdfunding platform enabling users to create, manage, and fund campaigns with JWT authentication, Cloudinary media storage, and automated email invoicing.",
+      "A modern, responsive web application for English Premier League fans",
     technologies: [
+      "Next.js",
       "React",
-      "Node.js",
-      "Express.js",
-      "MongoDB",
-      "JWT",
-      "Cloudinary",
-      "Tailwind CSS"
+      "Tailwind CSS",
+      "Framer Motion",
+      "Lenis",
     ],
-    githubUrl: "https://github.com/Sahil9309/sahayog", // TODO: verify/update
-    liveUrl: null, // TODO: add if deployed
+    // githubUrl: "https://github.com/rutujdhawale/90plus",
+    liveUrl: "https://90-plus-two.vercel.app/",
   },
-
-
+  {
+    title: "Road Damage Detection",
+    category: "Hackathon",
+    description:
+      "Developed a YOLOv8-based road damage detection system to identify and classify potholes and multiple crack types from road images, achieving robust performance using the RDD2022 dataset.",
+    technologies: [
+      "Python",
+      "YOLOv8",
+      "PyTorch",
+    ],
+    githubUrl: "https://github.com/rutujdhawale/RoadDamageDetection",
+    liveUrl: null,
+  },
   {
     title: "Hybrid RAG Assistant",
     category: "Personal",
@@ -34,31 +43,21 @@ export const projects = [
     liveUrl: null, // TODO: add if deployed
   },
   {
-    title: "Road Damage Detection",
-    category: "Hackathon",
+    title: "Sahayog",
+    category: "Collaboration",
     description:
-      "Developed a YOLOv8-based road damage detection system to identify and classify potholes and multiple crack types from road images, achieving robust performance using the RDD2022 dataset.",
+      "Developed a MERN-based crowdfunding platform enabling users to create, manage, and fund campaigns with JWT authentication, Cloudinary media storage, and automated email invoicing.",
     technologies: [
-      "Python",
-      "YOLOv8",
-      "PyTorch",
-    ],
-    githubUrl: "https://github.com/rutujdhawale/RoadDamageDetection",
-    liveUrl: null,
-  },
-  {
-    title: "90+",
-    category: "Personal",
-    description:
-      "A modern, responsive web application for English Premier League fans",
-    technologies: [
-      "Next.js",
       "React",
-      "Tailwind CSS",
-      "Framer Motion",
-      "Lenis",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "JWT",
+      "Cloudinary",
+      "Tailwind CSS"
     ],
-    // githubUrl: "https://github.com/rutujdhawale/90plus",
-    liveUrl: "https://90-plus-two.vercel.app/",
+    githubUrl: "https://github.com/Sahil9309/sahayog", // TODO: verify/update
+    liveUrl: null, // TODO: add if deployed
   }
+  
 ];
