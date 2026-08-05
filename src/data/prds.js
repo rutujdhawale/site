@@ -1,12 +1,12 @@
 export const prds = [
   {
-    title: "Feature PRD: AI-Powered Course Generator",
-    product: "CourseGPT",
-    type: "PRD",
+    title: "Product Teardown: Duolingo",
+    product: "Duolingo",
+    type: "Teardown",
     preview:
-      "Defining the product requirements for an AI-driven course generation platform — scoping user personas, success metrics, feature prioritization using RICE, and a phased rollout plan for modular curriculum generation.",
+      "Analyzing Duolingo's product strategy — exploring its gamified learning approach, user retention mechanisms, and monetization tactics through the lens of behavioral psychology.",
     previewImage: null, // TODO: Add screenshot path e.g. "/images/prds/coursegpt-prd.png"
-    documentUrl: "#", // TODO: Replace with actual Google Doc/Notion link
+    documentUrl: "https://app.notion.com/p/Duolingo-Product-Teardown-Building-the-Habit-Machine-for-Language-Learning-3b369e34fe4a8151bcd5c61d1b5a85f3?source=copy_link", // TODO: Replace with actual Google Doc/Notion link
   },
   {
     title: "Product Teardown: Sweatpals",
