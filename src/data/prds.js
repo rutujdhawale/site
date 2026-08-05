@@ -1,6 +1,6 @@
 export const prds = [
   {
-    title: "Product Teardown: Duolingo",
+    title: "Building the Habit Machine for Language Learning",
     product: "Duolingo",
     type: "Teardown",
     preview:
