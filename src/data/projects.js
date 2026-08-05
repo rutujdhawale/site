@@ -1,13 +1,4 @@
 export const projects = [
-  // {
-  //   title: "CourseGPT",
-  //   category: "Personal",
-  //   description:
-  //     "A platform using Gemini 2.0 to auto-generate modular courses with lessons, quizzes, and labs from user prompts, enabling single-click curriculum generation.",
-  //   technologies: ["Next.js", "TypeScript", "Hono", "MongoDB", "Gemini"],
-  //   githubUrl: "https://github.com/killjoycircuit/CourseGPT", // TODO: verify/update
-  //   liveUrl: null, // TODO: add if deployed
-  // },
   {
     title: "Sahayog",
     category: "Collaboration",
@@ -52,7 +43,22 @@ export const projects = [
       "YOLOv8",
       "PyTorch",
     ],
-    githubUrl: "https://github.com/rutujdhawale/RoadDamageDetection", // TODO: verify/update
-    liveUrl: null, // TODO: add if deployed
+    githubUrl: "https://github.com/rutujdhawale/RoadDamageDetection",
+    liveUrl: null,
+  },
+  {
+    title: "90+",
+    category: "Personal",
+    description:
+      "A modern, responsive web application for English Premier League fans",
+    technologies: [
+      "Next.js",
+      "React",
+      "Tailwind CSS",
+      "Framer Motion",
+      "Lenis",
+    ],
+    // githubUrl: "https://github.com/rutujdhawale/90plus",
+    liveUrl: "https://90-plus-two.vercel.app/",
   }
 ];
