@@ -17,4 +17,22 @@ export const prds = [
     previewImage: null, // TODO: Add screenshot path e.g. "/images/prds/notion-teardown.png"
     documentUrl: "#", // TODO: Replace with actual Google Doc/Notion link
   },
+  {
+    title: "Product Teardown: Notion AI",
+    product: "Notion",
+    type: "Teardown",
+    preview:
+      "A deep-dive teardown of Notion AI's integration strategy — analyzing user adoption patterns, feature discoverability, pricing decisions, and competitive positioning against standalone AI writing tools.",
+    previewImage: null, // TODO: Add screenshot path e.g. "/images/prds/notion-teardown.png"
+    documentUrl: "#", // TODO: Replace with actual Google Doc/Notion link
+  },
+  {
+    title: "Product Teardown: Notion AI",
+    product: "Notion",
+    type: "Teardown",
+    preview:
+      "A deep-dive teardown of Notion AI's integration strategy — analyzing user adoption patterns, feature discoverability, pricing decisions, and competitive positioning against standalone AI writing tools.",
+    previewImage: null, // TODO: Add screenshot path e.g. "/images/prds/notion-teardown.png"
+    documentUrl: "#", // TODO: Replace with actual Google Doc/Notion link
+  },
 ];
