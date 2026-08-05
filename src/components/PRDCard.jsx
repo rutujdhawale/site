@@ -40,16 +40,10 @@ export default function PRDCard({
           <div className="flex items-start justify-between gap-3 mb-2">
             <div className="min-w-0">
               <div className="flex items-center gap-2.5 mb-1">
-                <h3 className="text-base font-semibold text-white truncate group-hover:text-neutral-100 transition-colors">
+                <h3 className="text-base font-semibold text-white group-hover:text-neutral-100 transition-colors">
                   {title}
+                  <ArrowUpRight size={15} className="inline-block ml-1 -mt-0.5 text-neutral-600 group-hover:text-neutral-400 transition-colors" />
                 </h3>
-                <motion.span
-                  className="inline-block text-neutral-600 group-hover:text-neutral-400 transition-colors"
-                  initial={{ x: 0, y: 0 }}
-                  whileHover={{ x: 2, y: -2 }}
-                >
-                  <ArrowUpRight size={16} />
-                </motion.span>
               </div>
               <p className="text-sm text-neutral-500">{product}</p>
             </div>
