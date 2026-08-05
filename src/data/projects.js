@@ -5,6 +5,8 @@ export const projects = [
     description:
       "A platform using Gemini 2.0 to auto-generate modular courses with lessons, quizzes, and labs from user prompts, enabling single-click curriculum generation.",
     technologies: ["Next.js", "TypeScript", "Hono", "MongoDB", "Gemini"],
+    githubUrl: "https://github.com/killjoycircuit/CourseGPT", // TODO: verify/update
+    liveUrl: null, // TODO: add if deployed
   },
   {
     title: "Sahayog",
@@ -20,9 +22,11 @@ export const projects = [
       "Cloudinary",
       "Tailwind CSS"
     ],
+    githubUrl: "https://github.com/killjoycircuit/Sahayog", // TODO: verify/update
+    liveUrl: null, // TODO: add if deployed
   },
-  
-  
+
+
   {
     title: "Hybrid RAG Assistant",
     category: "Personal",
@@ -35,6 +39,8 @@ export const projects = [
       "FAISS",
       "BM25",
     ],
+    githubUrl: "https://github.com/killjoycircuit/Hybrid-RAG-Assistant", // TODO: verify/update
+    liveUrl: null, // TODO: add if deployed
   },
   {
     title: "Road Damage Detection",
@@ -46,5 +52,7 @@ export const projects = [
       "YOLOv8",
       "PyTorch",
     ],
+    githubUrl: "https://github.com/killjoycircuit/Road-Damage-Detection", // TODO: verify/update
+    liveUrl: null, // TODO: add if deployed
   }
 ];

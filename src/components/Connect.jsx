@@ -22,7 +22,7 @@ const socialLinks = [
   },
   {
     label: "Resume",
-    href: "#",
+    href: "https://drive.google.com/your-resume-link", /* TODO: Replace with actual resume link */
     icon: <FileText size={16} />,
   },
 ];

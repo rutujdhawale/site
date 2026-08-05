@@ -78,7 +78,9 @@ export default function About() {
           className="mt-10"
         >
           <a
-            href="#"
+            href="https://drive.google.com/your-resume-link" /* TODO: Replace with actual resume link */
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-1.5 text-sm text-neutral-300 hover:text-white transition-colors duration-200 underline underline-offset-4 decoration-neutral-600 hover:decoration-neutral-400"
           >
             View Resume →
