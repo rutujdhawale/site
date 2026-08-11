@@ -40,7 +40,7 @@ A modern, high-performance portfolio website built with **React**, **Vite**, and
 
 ```bash
 # Clone the repository
-git clone [https://github.com/rutujdhawale/site.git]
+git clone https://github.com/rutujdhawale/site.git
 
 # Navigate into the project folder
 
