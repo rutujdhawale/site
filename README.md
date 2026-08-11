@@ -1,4 +1,4 @@
-# Rutuj Dhawale — Personal Portfolio
+# Portfolio Site
 
 [![CI Status](https://github.com/rutujdhawale/site/actions/workflows/ci.yml/badge.svg)](https://github.com/rutujdhawale/site/actions/workflows/ci.yml)
 [![Dependabot](https://img.shields.io/badge/Dependabot-active-brightgreen.svg?logo=dependabot)](https://github.com/rutujdhawale/site/blob/main/.github/dependabot.yml)
@@ -40,10 +40,9 @@ A modern, high-performance portfolio website built with **React**, **Vite**, and
 
 ```bash
 # Clone the repository
-git clone https://github.com/rutujdhawale/portfolio-web.git
+git clone [https://github.com/rutujdhawale/site.git]
 
 # Navigate into the project folder
-cd portfolio-web
 
 # Install dependencies
 npm install
