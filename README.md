@@ -42,9 +42,7 @@ A modern, high-performance portfolio website built with **React**, **Vite**, and
 # Clone the repository
 git clone https://github.com/rutujdhawale/site.git
 
-# Navigate into the project folder
-
-# Install dependencies
+# Navigate into the project folder and install dependencies
 npm install
 ```
 
